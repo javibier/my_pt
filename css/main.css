@@ -261,13 +261,17 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
-.hero-area h1 {
-  font-size: 4.25em;
+.hero-area h1, p {
+  font-size: 6.50em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif; 
   font-weight: 500; 
-  line-height: 1.2; 
+  line-height: 1.2;
+  color: #333;
 }
 
+.hero-area p {
+  font-size: 2em;
+}
 
 
 /* ==========================================================================
@@ -412,8 +416,17 @@ header nav ul li {
   justify-content: space-between;
 }
 
-.hero-area h1 {
-  font-size: 5.25em;
+main .hero-area h1 {
+  font-size: 11.25em;
+}
+
+main p {
+  font-size: 2.25em;
+}
+
+footer p {
+  color: #527158;
+  font-size: 1.25em;
 }
 
 
