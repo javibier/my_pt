@@ -294,6 +294,27 @@ footer .copyright {
   font-size: 2em;
 }
 
+.services {
+  background: url('../img/services.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 610px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.services h1, p {
+  font-size: 6.50em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+  font-weight: 500; 
+  line-height: 1.2;
+  color: #333;
+}
+
+.services p {
+  font-size: 2em;
+}
+
 
 
 /* ==========================================================================
