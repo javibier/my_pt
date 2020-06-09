@@ -87,32 +87,169 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-header,
-footer,
-header nav,
-header nav ul,
-footer social-icons,
-footer social,
-hero-area,
-aside,
-about,
-faq {
+html {
+  font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  color: #e2e3ed;
+}
+ 
+ul, 
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+  margin: 0;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+ 
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+ 
+img {
+  width: 100%;
+}
+ 
+figure {
+  margin: 0;
+}
+ 
+address {
+  font-style: normal;
+}
+ 
+/*-----------------------------Base-----------------------------------------------*/
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+/*-------------Base Header - Footer Styles ----------------------------------*/
+
+header, footer {
+  background-color: #202322;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header {
+  padding: 15px 0;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 70%;
+  font-weight: 700;
+  height: auto;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav ul li {
+  font-size: 1.125em;
+}
+
+footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header,
-footer,
-header nav,
-header content-wrapper,
-hero-area,
-aside,
-about,
-faq,
-faq content-wrapper {
-  flex-flow: row wrap;
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
+
+footer .copyright {
+  margin: 20px 0;
+}
+
 
 
 /* ==========================================================================
