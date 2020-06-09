@@ -250,6 +250,24 @@ footer .copyright {
   margin: 20px 0;
 }
 
+/*------------------Mobile Styles -Homepage ---------------------------------*/
+
+.hero-area {
+  background: url('../img/hero.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 610px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.hero-area h1 {
+  font-size: 4.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+  font-weight: 500; 
+  line-height: 1.2; 
+}
+
 
 
 /* ==========================================================================
@@ -390,8 +408,12 @@ header nav ul {
 }
 
 header nav ul li {
-  padding: 0 5px 0 5px;
+  padding: 0 7px 0 7px;
   justify-content: space-between;
+}
+
+.hero-area h1 {
+  font-size: 5.25em;
 }
 
 
