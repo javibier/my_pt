@@ -463,8 +463,13 @@ h3 {
   max-width: 98%;
 }
 
+header {
+  max-height: 50px;
+}
+
 header .content-wrapper {
   width: 98%;
+  max-height: 45px;
 }
 
 header nav {
